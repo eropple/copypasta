@@ -1,0 +1,4 @@
+#! /usr/bin/env ruby
+
+require "cri/scaffold"
+Cri.scaffold("#{__dir__}/../lib/copypasta").run(ARGV)
