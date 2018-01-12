@@ -14,7 +14,6 @@ module Copypasta
       raise "'contents' must be an Array of Copypasta::Contents." \
         unless contents.is_a?(Array) && contents.all? { |c| c.is_a?(Copypasta::Contents) }
 
-      @root = root.dup.freeze
       @settings = settings.dup.freeze
       @contents = contents.dup.freeze
     end

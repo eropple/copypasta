@@ -7,6 +7,9 @@ there's no unified way that works on a CLI, embedded in your app, or in Chef.
 
 So I decided to thereifixedit the whole thing.
 
+Copypasta is tested primarily under Ruby 2.5. Feel free to file bugs for Ruby
+2.3 or later.
+
 ## Usage ##
 Copypasta works on the concept of a `Plan`. A `Plan` is a directory structure
 that mimics the final data structure while offering a DSL that figures out what,
